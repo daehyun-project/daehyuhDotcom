@@ -1,0 +1,54 @@
+{
+    "high": [
+      {
+        "item": "서부 고고학자 도굴꾼 스킨",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "probability": 15
+      },
+      {
+        "item": "살롱의 안주인 마담 스킨",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "probability": 15
+      },
+      {
+        "item": "학자의 기록 테두리",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "probability": 15
+      },
+      {
+        "item": "태피스트리 테두리",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "probability": 15
+      },
+      {
+        "item": "조심스러운 발굴",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "probability": 15
+      },
+      {
+        "item": "향기 없는 장미",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "probability": 15
+      },
+      {
+        "item": "비밀스러운 서부의 일상",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "probability": 10
+      },
+      {
+        "item": "마법의 클로버 카드",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "probability": 2
+      }
+    ], 
+    "low" : []
+  }
+  

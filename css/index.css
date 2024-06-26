@@ -188,7 +188,7 @@ min-height: 100%;
   padding-bottom: 10px;
 }
 .post {
-  height: auto; width: 300px; margin: 30px 30px 30px 30px;
+  height: auto; width: 300px; margin: 10px 10px 10px 10px;
 }
 .s-post{
   padding-left: 20px; padding-right:20px; margin:0 auto;

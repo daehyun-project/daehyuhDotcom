@@ -1,0 +1,352 @@
+{
+  "high" : [
+    {
+      "item": "서부 고고학자 도굴꾼 스킨",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "probability": 0.01
+    },
+    {
+      "item": "살롱의 안주인 마담 스킨",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "probability": 0.01
+    },
+    {
+      "item": "학자의 기록 테두리",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "probability": 0.01
+    },
+    {
+      "item": "태피스트리 테두리",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "probability": 0.01
+    },
+    {
+      "item": "조심스러운 발굴",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "probability": 0.01
+    },
+    {
+      "item": "향기 없는 장미",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "probability": 0.01
+    },
+    {
+      "item": "비밀스러운 서부의 일상",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "probability": 0.01
+    },
+    {
+      "item": "스페이드의 에이스 자경단원 스킨",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "probability": 0.01
+    },
+    {
+      "item": "조커 마녀 스킨",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "probability": 0.01
+    },
+    {
+      "item": "인터미션 테두리",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "probability": 0.01
+    },
+    {
+      "item": "트럼프 베스트 테두리",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "probability": 0.01
+    },
+    {
+      "item": "이야기의 무대",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "probability": 0.01
+    },
+    {
+      "item": "체크무늬 클래식 튀튀",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "probability": 0.01
+    },
+    {
+      "item": "트럼프 세상 속 조커들",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "probability": 0.01
+    },
+    {
+      "item": "황야의 승부사 건달 스킨",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "probability": 0.01
+    },
+    {
+      "item": "판의 지배자 마술사 스킨",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "probability": 0.01
+    },
+    {
+      "item": "지배자의 코트 테두리",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "probability": 0.01
+    },
+    {
+      "item": "서부의 모험 테두리",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "probability": 0.01
+    },
+    {
+      "item": "승자의 속임수",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "probability": 0.01
+    },
+    {
+      "item": "마지막 베팅",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "probability": 0.01
+    },
+    {
+      "item": "승부사의 지갑",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "probability": 0.01
+    },
+    {
+      "item": "클로버의 퀸 심리학자 스킨",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "probability": 0.01
+    },
+    {
+      "item": "다이아몬드의 잭 군인 스킨",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "probability": 0.01
+    },
+    {
+      "item": "자애로운 마음 테두리",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "probability": 0.01
+    },
+    {
+      "item": "수호 기사의 투구 테두리",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "probability": 0.01
+    },
+    {
+      "item": "여왕의 머리 장식",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "probability": 0.01
+    },
+    {
+      "item": "수호 기사의 맹세",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "probability": 0.01
+    },
+    {
+      "item": "환영 트럼프 지갑",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "probability": 0.01
+    },
+    {
+      "item": "클로버의 잭 사립탐정 스킨",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "probability": 0.01
+    },
+    {
+      "item": "하트의 퀸 성직자 스킨",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "probability": 0.01
+    },
+    {
+      "item": "스페이드의 킹 교주 스킨",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "probability": 0.01
+    },
+    {
+      "item": "다이아의 에이스 판사 스킨",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "probability": 0.01
+    },
+    {
+      "item": "조커 도둑 스킨",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "probability": 0.01
+    },
+    {
+      "item": "트럼프 지갑",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "probability": 0.01
+    },
+    {
+      "item": "붉은 여왕의 심장",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "probability": 0.01
+    },
+    {
+      "item": "타락한 왕의 권능",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "probability": 0.01
+    },
+    {
+      "item": "다이아몬드 테두리",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "probability": 0.01
+    },
+    {
+      "item": "레드 하트 테두리",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "probability": 0.01
+    },
+    {
+      "item": "이야기꾼의 거울",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "probability": 0.01
+    },
+    {
+      "item": "타락한 깃털",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "probability": 0.01
+    },
+    {
+      "item": "충성스러운 기사의 수호",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "probability": 0.01
+    },
+    {
+      "item": "화려한 권신의 탐욕",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "probability": 0.01
+    },
+    {
+      "item": "이면 세계의 트럼프 지갑",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "probability": 0.01
+    }],
+    "low" : [
+    {
+      "item": "사망 확인서",
+      "minQuantity": 5,
+      "maxQuantity": 20,
+      "probability": 10
+    },
+    {
+      "item": "밀서",
+      "minQuantity": 3,
+      "maxQuantity": 15,
+      "probability": 10
+    },
+    {
+      "item": "사망 광고판",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "probability": 10
+    },
+    {
+      "item": "부고기사",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "probability": 9
+    },
+    {
+      "item": "확성기",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "probability": 4
+    },
+    {
+      "item": "일반 엽서",
+      "minQuantity": 1,
+      "maxQuantity": 2,
+      "probability": 9
+    },
+    {
+      "item": "경고 엽서",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "probability": 9
+    },
+    {
+      "item": "고급 엽서",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "probability": 2
+    },
+    {
+      "item": "이력서",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "probability": 2
+    },
+    {
+      "item": "일반 티켓",
+      "minQuantity": 1,
+      "maxQuantity": 2,
+      "probability": 9
+    },
+    {
+      "item": "왕가의 보물",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "probability": 1
+    },
+    {
+      "item": "기사의 잎새",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "probability": 1
+    },
+    {
+      "item": "마법의 클로버 카드",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "probability": 2
+    },
+    {
+      "item": "트럼프 엽서",
+      "minQuantity": 5,
+      "maxQuantity": 15,
+      "probability": 10.8
+    },
+    {
+      "item": "광대의 확성기",
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "probability": 10.77
+    }]
+    }
