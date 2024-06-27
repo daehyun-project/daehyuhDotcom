@@ -44,70 +44,235 @@
 
 <body class="color">
     <div id="outer1">
- <img style="width: 100%; height: 100%;float: center;" src="../images/Banner2.jpg" alt="My Image">
+        <img style="width: 100%; height: 100%; float: center;" src="../images/Banner2.jpg" alt="My Image">
         <div id="outer">
-             <ul class="li-a" style="color:white; text-align: center; align-items: center; float: center;">
-                   
-                    <li class = "line-top">
-						<h2>[홍보] 혜연누님 잘쓰십쇼</h2>
-                    </li>
-                        <!-- 추가  -->
-                </ul>
-            
+            <ul class="li-a" style="color:white; text-align: center; align-items: center; float: center;">
+                <li class="line-top">
+                    <h2>[홍보] 혜연누님 잘쓰십쇼</h2>
+                </li>
+                <!-- 추가  -->
+            </ul>
+
             <div id="inner">
                 <a href="../">
                     <h1 id="title">대현닷컴</h1>
                 </a>
-		           <p>마피아42의 편리기능 사이트입니다.</p>
-                
-                   <div class="a-container a-form1 line-left">
-                   </div>
-                   
-                   <div class="a-container a-form1 line-top">
+                <p>마피아42의 편리기능 사이트입니다.</p>
+
+                <div class="a-container a-form1 line-left">
+                </div>
+
+                <div class="a-container a-form1 line-top">
                     <h1 class="line-left " id="0">상자깡</h1>
                     <div class="post">
-                
-                <div style="font-size: 20px;">
-                <label size for="selectBox">선택</label>
-                <select id="selectBox" onchange="start(this.value)">
-                    <option value="">2024년도 뒷골목 이벤트</option>
-                    <option value="기본.json">기본</option>
-                    <option value="프리미엄.json">프리미엄</option>
-                    <option value="vip.json">vip</option>
-                    <option value="시크릿.json">시크릿</option>
-                </select>
-            </div>
 
-    <table id="itemTable">
-        <thead>
-            <tr>
-                <th>체크</th>
-                <th>아이템</th>
-                <th>확률</th>
-            </tr>
-        </thead>
-        <tbody>
-            
-        </tbody>
-        <tfoot>
-            <tr>
-                <td>총 확률</td>
-                <td id="totalProbability"></td>
-                <td>100%</td>
-            </tr>
-        </tfoot>
-    </table>
-    
-    <script src="index.js"></script>
+                        <div style="font-size: 20px;">
+                            <label size for="selectBox">선택</label>
+                            <select id="selectBox" onchange="start(this.value)">
+                                <option value="">2024년도 뒷골목 이벤트</option>
+                                <option value="기본.json">기본</option>
+                                <option value="프리미엄.json">프리미엄</option>
+                                <option value="vip.json">vip</option>
+                                <option value="시크릿.json">시크릿</option>
+                            </select>
+                        </div>
 
+                        <table id="itemTable">
+                            <thead>
+                                <tr>
+                                    <th>체크</th>
+                                    <th>아이템</th>
+                                    <th>확률</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Table rows will be dynamically added by JavaScript -->
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td>총 확률</td>
+                                    <td id="totalProbability"></td>
+                                    <td>100%</td>
+                                </tr>
+                            </tfoot>
+                        </table>
                     </div>
                     <div class="alert alert-info">
                         <strong>상자깡</strong>
                     </div>
                 </div>
+<script>
+            // Function to set a cookie
+            function setCookie(name, value, days) {
+            let expires = "";
+            if (days) {
+                let date = new Date();
+                date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+                expires = "; expires=" + date.toUTCString();
+            }
+            document.cookie = name + "=" + (value || "") + expires + "; path=/";
+        }
 
+        // Function to get a cookie
+        function getCookie(name) {
+            let nameEQ = name + "=";
+            let cookies = document.cookie.split(';');
+            for (let i = 0; i < cookies.length; i++) {
+                let cookie = cookies[i];
+                while (cookie.charAt(0) === ' ') {
+                    cookie = cookie.substring(1, cookie.length);
+                }
+                if (cookie.indexOf(nameEQ) === 0) {
+                    return cookie.substring(nameEQ.length, cookie.length);
+                }
+            }
+            return null;
+        }
 
+        let allItems = [];
+        let highItemsIdx = 0;
 
+        function start(json){
+            allItems = [];
+            highItemsIdx = 0;
+            fetch(json)
+                .then(response => response.json())
+                .then(data => {
+                    allItems = [...data.high, ...data.low];
+                    highItemsIdx = data.high.length;
+                    
+                    createTable(allItems);
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+        }
+
+        function createTable(data) {
+            const tableBody = document.querySelector("#itemTable tbody");
+            tableBody.innerHTML = '';
+
+            data.forEach((item, index) => {
+                const row = document.createElement("tr");
+                
+                const checkboxCell = document.createElement("td");
+                const checkbox = document.createElement("input");
+                checkbox.type = "checkbox";
+                checkbox.dataset.index = index;
+
+                if (index < highItemsIdx) {
+                    checkbox.addEventListener("change", () => {
+                        updateProbabilities();
+                        saveCheckboxStates();
+                    });
+                    checkboxCell.appendChild(checkbox);
+                    row.appendChild(checkboxCell);
+                } else {
+                    const checkbox2 = document.createElement("input");
+                    checkbox2.type = "checkbox";
+                    checkbox2.disabled = true;
+
+                    checkboxCell.appendChild(checkbox2);
+                    row.appendChild(checkboxCell);
+                }
+
+                const nameCell = document.createElement("td");
+                nameCell.textContent = item.item;
+                row.appendChild(nameCell);
+                
+                const probabilityCell = document.createElement("td");
+                probabilityCell.textContent = item.probability+"%";
+                probabilityCell.className = 'probability';
+                row.appendChild(probabilityCell);
+
+                tableBody.appendChild(row);
+            });
+
+            
+            loadCheckboxStates();
+        }
+        
+        function updateProbabilities() {
+            let totalProbability = 0;
+
+            const checkboxes = document.querySelectorAll("#itemTable tbody input[type='checkbox']");
+
+            checkboxes.forEach((item, index) => {
+                const probabilityCell = document.querySelector(`#itemTable tbody tr:nth-child(${index + 1}) .probability`);
+                if (!checkboxes[index].checked) {
+                    totalProbability += allItems[index].probability;
+                }
+            });
+
+            checkboxes.forEach((item, index) => {
+                const probabilityCell = document.querySelector(`#itemTable tbody tr:nth-child(${index + 1}) .probability`);
+                if (!checkboxes[index].checked) {
+                    probabilityCell.textContent = (allItems[index].probability / totalProbability * 100).toFixed(4)+"%";
+                }
+            });
+
+            document.querySelector("#totalProbability").textContent = totalProbability.toFixed(4)+"%";
+        }
+
+        // Function to save checkbox states to cookie
+        function saveCheckboxStates() {
+            const checkboxes = document.querySelectorAll("#itemTable tbody input[type='checkbox']");
+            let checkedIndexes = [];
+            checkboxes.forEach((checkbox, index) => {
+                if (checkbox.checked) {
+                    checkedIndexes.push(index);
+                }
+            });
+            setCookie('checkedIndexes', JSON.stringify(checkedIndexes), 30); // Save for 30 days
+        }
+
+        // Function to load checkbox states from cookie
+        function loadCheckboxStates() {
+            const checkedIndexes = JSON.parse(getCookie('checkedIndexes')) || [];
+            const checkboxes = document.querySelectorAll("#itemTable tbody input[type='checkbox']");
+            
+            checkboxes.forEach((checkbox, index) => {
+                checkbox.checked = checkedIndexes.includes(index);
+            });
+
+            updateProbabilities(); // Update probabilities after loading states
+        }
+
+        // Event listener for select box changes
+        document.getElementById('selectBox').addEventListener('change', function() {
+            const selectedValue = this.value;
+            if (selectedValue !== '') {
+                start(selectedValue);
+                saveSelectBoxValue(selectedValue);
+            }
+        });
+
+        // Function to save select box value to cookie
+        function saveSelectBoxValue(value) {
+            setCookie('selectedOption', value, 30); // Save for 30 days
+        }
+
+        // Function to load select box value from cookie
+        function loadSelectBoxValue() {
+            const selectedOption = getCookie('selectedOption');
+            if (selectedOption) {
+                document.getElementById('selectBox').value = selectedOption;
+            }
+        }
+
+        // Load initial select box value and checkbox states on page load
+        window.addEventListener('load', function() {
+            loadSelectBoxValue();
+            loadCheckboxStates();
+        });
+
+        // Initial start based on loaded select box value
+        const initialSelectedOption = getCookie('selectedOption');
+        if (initialSelectedOption && initialSelectedOption !== '') {
+            document.getElementById('selectBox').value = initialSelectedOption;
+            start(initialSelectedOption);
+        }
+</script>
 </body>
 
 </html>

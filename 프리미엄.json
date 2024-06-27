@@ -1,0 +1,378 @@
+{
+    "high": [
+      {
+        "item": "서부 고고학자 도굴꾼 스킨",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "probability": 0.8
+      },
+      {
+        "item": "살롱의 안주인 마담 스킨",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "probability": 0.8
+      },
+      {
+        "item": "학자의 기록 테두리",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "probability": 0.8
+      },
+      {
+        "item": "태피스트리 테두리",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "probability": 0.8
+      },
+      {
+        "item": "조심스러운 발굴",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "probability": 0.8
+      },
+      {
+        "item": "향기 없는 장미",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "probability": 0.8
+      },
+      {
+        "item": "비밀스러운 서부의 일상",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "probability": 0.5
+      },
+      {
+        "item": "스페이드의 에이스 자경단원 스킨",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "probability": 0.1
+      },
+      {
+        "item": "조커 마녀 스킨",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "probability": 0.1
+      },
+      {
+        "item": "인터미션 테두리",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "probability": 0.1
+      },
+      {
+        "item": "트럼프 베스트 테두리",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "probability": 0.1
+      },
+      {
+        "item": "이야기의 무대",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "probability": 0.1
+      },
+      {
+        "item": "체크무늬 클래식 튀튀",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "probability": 0.1
+      },
+      {
+        "item": "트럼프 세상 속 조커들",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "probability": 0.08
+      },
+      {
+        "item": "황야의 승부사 건달 스킨",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "probability": 0.1
+      },
+      {
+        "item": "판의 지배자 마술사 스킨",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "probability": 0.1
+      },
+      {
+        "item": "지배자의 코트 테두리",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "probability": 0.1
+      },
+      {
+        "item": "서부의 모험 테두리",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "probability": 0.1
+      },
+      {
+        "item": "승자의 속임수",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "probability": 0.1
+      },
+      {
+        "item": "마지막 베팅",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "probability": 0.1
+      },
+      {
+        "item": "승부사의 지갑",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "probability": 0.08
+      },
+      {
+        "item": "클로버의 퀸 심리학자 스킨",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "probability": 0.1
+      },
+      {
+        "item": "다이아몬드의 잭 군인 스킨",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "probability": 0.1
+      },
+      {
+        "item": "자애로운 마음 테두리",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "probability": 0.1
+      },
+      {
+        "item": "수호 기사의 투구 테두리",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "probability": 0.1
+      },
+      {
+        "item": "여왕의 머리 장식",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "probability": 0.1
+      },
+      {
+        "item": "수호 기사의 맹세",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "probability": 0.1
+      },
+      {
+        "item": "환영 트럼프 지갑",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "probability": 0.08
+      },
+      {
+        "item": "클로버의 잭 사립탐정 스킨",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "probability": 0.1
+      },
+      {
+        "item": "하트의 퀸 성직자 스킨",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "probability": 0.1
+      },
+      {
+        "item": "스페이드의 킹 교주 스킨",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "probability": 0.1
+      },
+      {
+        "item": "다이아의 에이스 판사 스킨",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "probability": 0.1
+      },
+      {
+        "item": "조커 도둑 스킨",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "probability": 0.1
+      },
+      {
+        "item": "트럼프 지갑",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "probability": 0.08
+      },
+      {
+        "item": "붉은 여왕의 심장",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "probability": 0.1
+      },
+      {
+        "item": "타락한 왕의 권능",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "probability": 0.1
+      },
+      {
+        "item": "다이아몬드 테두리",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "probability": 0.1
+      },
+      {
+        "item": "레드 하트 테두리",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "probability": 0.1
+      },
+      {
+        "item": "이야기꾼의 거울",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "probability": 0.1
+      },
+      {
+        "item": "타락한 깃털",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "probability": 0.1
+      },
+      {
+        "item": "충성스러운 기사의 수호",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "probability": 0.1
+      },
+      {
+        "item": "화려한 권신의 탐욕",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "probability": 0.1
+      },
+      {
+        "item": "이면 세계의 트럼프 지갑",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "probability": 0.08
+      }],
+    "low":[
+      {
+        "item": "스포이트",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "probability": 4.5
+      },
+      {
+        "item": "마법의 염색약",
+        "minQuantity": 6,
+        "maxQuantity": 8,
+        "probability": 4.5
+      },
+      {
+        "item": "신분증",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "probability": 4.5
+      },
+      {
+        "item": "사망 광고판",
+        "minQuantity": 38,
+        "maxQuantity": 42,
+        "probability": 4.5
+      },
+      {
+        "item": "부고기사",
+        "minQuantity": 38,
+        "maxQuantity": 42,
+        "probability": 4.5
+      },
+      {
+        "item": "고대의 제작서",
+        "minQuantity": 3,
+        "maxQuantity": 3,
+        "probability": 4.5
+      },
+      {
+        "item": "마법의 연마제",
+        "minQuantity": 3,
+        "maxQuantity": 3,
+        "probability": 4.5
+      },
+      {
+        "item": "명장의 망치",
+        "minQuantity": 3,
+        "maxQuantity": 3,
+        "probability": 4.5
+      },
+      {
+        "item": "큐피드의 화살",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "probability": 4.5
+      },
+      {
+        "item": "고급 엽서",
+        "minQuantity": 18,
+        "maxQuantity": 20,
+        "probability": 4.5
+      },
+      {
+        "item": "징벌의 엽서",
+        "minQuantity": 2,
+        "maxQuantity": 2,
+        "probability": 4.5
+      },
+      {
+        "item": "깜짝 엽서",
+        "minQuantity": 3,
+        "maxQuantity": 3,
+        "probability": 4.5
+      },
+      {
+        "item": "확성기",
+        "minQuantity": 12,
+        "maxQuantity": 14,
+        "probability": 4.5
+      },
+      {
+        "item": "왕가의 보물",
+        "minQuantity": 2,
+        "maxQuantity": 3,
+        "probability": 5.4
+      },
+      {
+        "item": "기사의 잎새",
+        "minQuantity": 2,
+        "maxQuantity": 3,
+        "probability": 5.4
+      },
+      {
+        "item": "마법의 다이아몬드 카드",
+        "minQuantity": 2,
+        "maxQuantity": 3,
+        "probability": 5.5
+      },
+      {
+        "item": "마법의 하트 카드",
+        "minQuantity": 1,
+        "maxQuantity": 1,
+        "probability": 5.5
+      },
+      {
+        "item": "트럼프 엽서",
+        "minQuantity": 120,
+        "maxQuantity": 150,
+        "probability": 5.5
+      },
+      {
+        "item": "광대의 확성기",
+        "minQuantity": 40,
+        "maxQuantity": 50,
+        "probability": 5.4
+      }
+    ]
+  }
+  

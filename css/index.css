@@ -79,14 +79,14 @@ min-height: 100%;
   text-align: center;
 }
     #outer{
-      max-width: 38em;
+      max-width: 40em;
       margin: auto;
       background-color: #F2F2F6;
       height: 100%;
     }
 
     #outer1{
-      max-width: 40em;
+      max-width: 45em;
       margin: auto;
       background-color: #333;
       height: 100%;
@@ -188,7 +188,7 @@ min-height: 100%;
   padding-bottom: 10px;
 }
 .post {
-  height: auto; width: 300px; margin: 10px 10px 10px 10px;
+  height: auto; width: 100%; margin: 10px 10px 10px 10px;
 }
 .s-post{
   padding-left: 20px; padding-right:20px; margin:0 auto;

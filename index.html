@@ -48,9 +48,6 @@
         <div id="outer">
              <ul class="li-a" style="color:white; text-align: center; align-items: center; float: center;">
                     <li>
-                        <a href="../Home">Home</a>
-                    </li>
-                    <li>
                         <a class="active" href="../kr">한국어</a>
                     </li>
                     <li>
@@ -59,11 +56,12 @@
                     <li>
                         <a href="../ae">العربية</a>
                     </li>
-                    <!-- <li>
+                    <li>
                         <img style="width: 50%; height: 70%;float: right;" src="../images/fizz.png" alt="My Image">
-                    </li> -->
+                    </li>
                     <li class = "line-top">
-						<h2 style="color=red;">[홍보] 광고주모십니당</h2>
+						<h5>❤️ 시즌 14 낭만과 함께할 길원을 구합니당 ❤️</h5>
+                        <h5>여름 접선</h5>
                     </li>
                         <!-- 추가  -->
                 </ul>
@@ -73,18 +71,326 @@
                     <h1 id="title">대현닷컴</h1>
                 </a>
 		           <p>마피아42의 편리기능 사이트입니다.</p>
+                   
+                   <style>
+                    table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        tbody tr:nth-child(odd) {
+            background-color: #f2f2f2;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #ffffff;
+        }
+
+        tfoot {
+            background-color: #f2f2f2;
+        }
+
+        input[type="checkbox"] {
+            width: 20px;
+            height: 20px;
+        }
+
+        .probability {
+            text-align: right;
+        }
+
+        #highProbability {
+            font-weight: bold;
+        }
+
+
+        </style>
+
+                    
+                <div style="text-align: left; font-size: 20px;">
+                    <a href="#0">- 상자깡 확률 바로가기</a> <br>
+                    <a href="#1">- 검닉랭킹 바로가기</a> <br>
+                    <a href="#2">- 6티어 계산기 바로가기</a> <br>
+                    <a href="#3">- 우칸 계산기 바로가기</a><br>
+                    <a href="#4">- 출석보상 계산기 바로가기</a><br>
+                    <a href="#5">- 엽서테러 계산기 바로가기</a><br>
+                    <a href="#5">- 환률 계산기 바로가기</a><br>
+                    
+                </div>
+
 
                    <div class="a-container a-form1 line-top">
-                    <h1 class="line-left " id="0">상자깡 확률 만들었어요</h1>
+                    <h1 class="line-left " id="0">상자깡 확률</h1>
                     <div class="post">
-                        <h1><a href="box/index.html">상자깡 확률 만들었어요</a></h1>
-                        <h1><a href="box/index.html">상자깡 확률 만들었어요</a></h1>
+                        
+                        <div style="font-size: 20px;">
+                            <label size for="selectBox">선택</label>
+                            <select id="selectBox" onchange="start(this.value)">
+                                <option value="">2024년도 뒷골목 이벤트</option>
+                                <option value="../기본.json">기본</option>
+                                <option value="../프리미엄.json">프리미엄</option>
+                                <option value="../vip.json">vip</option>
+                                <option value="../시크릿.json">시크릿</option>
+                            </select>
+                        </div>
+
+                        <table id="itemTable">
+                            <thead>
+                                <tr>
+                                    <tr>
+                                        <th colspan="2">레어(장착)아이템 나올 확률</th>
+                                        <th id="highProbability">0%</th>
+                                    </tr>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <input type="checkbox" id="checkAll" onclick="checkanduncheckAll()"/>
+                                    </th>
+                                    <th>아이템</th>
+                                    <th>확률</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Table rows will be dynamically added by JavaScript -->
+                            </tbody>
+                            <tfoot>
+                            </tfoot>
+                        </table>
                     </div>
+                    <div class="alert alert-info">
+                        <strong>상자깡</strong>
                     </div>
+                </div>
+<script>
+
+    function checkanduncheckAll() {
+        var checkboxes = document.querySelectorAll('input[type="checkbox"]');
+        var checkAll = document.getElementById('checkAll');
+        
+        // highItemsIdx 까지만 체크 가능
+        checkboxes.forEach((checkbox, index) => {
+            if (index <= highItemsIdx) {
+                checkbox.checked = checkAll.checked;
+            }
+        });
+        updateProbabilities();
+        saveCheckboxStates();
+    }
+
+            // Function to set a cookie
+            function setCookie(name, value, days) {
+            let expires = "";
+            if (days) {
+                let date = new Date();
+                date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+                expires = "; expires=" + date.toUTCString();
+            }
+            document.cookie = name + "=" + (value || "") + expires + "; path=/";
+        }
+
+        // Function to get a cookie
+        function getCookie(name) {
+            let nameEQ = name + "=";
+            let cookies = document.cookie.split(';');
+            for (let i = 0; i < cookies.length; i++) {
+                let cookie = cookies[i];
+                while (cookie.charAt(0) === ' ') {
+                    cookie = cookie.substring(1, cookie.length);
+                }
+                if (cookie.indexOf(nameEQ) === 0) {
+                    return cookie.substring(nameEQ.length, cookie.length);
+                }
+            }
+            return null;
+        }
+
+        let allItems = [];
+        let highItemsIdx = 0;
+
+        function start(json){
+            allItems = [];
+            highItemsIdx = 0;
+            fetch(json)
+                .then(response => response.json())
+                .then(data => {
+                    allItems = [...data.high, ...data.low];
+                    highItemsIdx = data.high.length;
+                    
+                    createTable(allItems);
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+        }
+
+        function createTable(data) {
+            const tableBody = document.querySelector("#itemTable tbody");
+            tableBody.innerHTML = '';
+
+            data.forEach((item, index) => {
+                const row = document.createElement("tr");
+                
+                const checkboxCell = document.createElement("td");
+                const checkbox = document.createElement("input");
+                checkbox.type = "checkbox";
+                checkbox.dataset.index = index;
+
+                if (index < highItemsIdx) {
+                    checkbox.addEventListener("change", () => {
+                        updateProbabilities();
+                        saveCheckboxStates();
+                    });
+                    checkboxCell.appendChild(checkbox);
+                    row.appendChild(checkboxCell);
+                } else {
+                    const checkbox2 = document.createElement("input");
+                    checkbox2.type = "checkbox";
+                    checkbox2.disabled = true;
+
+                    checkboxCell.appendChild(checkbox2);
+                    row.appendChild(checkboxCell);
+                }
+
+                const nameCell = document.createElement("td");
+                nameCell.textContent = item.item;
+                row.appendChild(nameCell);
+                
+                const probabilityCell = document.createElement("td");
+                probabilityCell.textContent = item.probability+"%";
+                probabilityCell.className = 'probability';
+                row.appendChild(probabilityCell);
+
+                tableBody.appendChild(row);
+            });
+
+            
+            loadCheckboxStates();
+        }
+        
+        function updateProbabilities() {
+            let totalProbability = 0;
+
+            let highProbability = 0;
+            const checkboxes = document.querySelectorAll("#itemTable tbody input[type='checkbox']");
+            
+            checkboxes.forEach((item, index) => {
+                const probabilityCell = document.querySelector(`#itemTable tbody tr:nth-child(${index + 1}) .probability`);
+                if (!checkboxes[index].checked) {
+                    probabilityCell.textContent = (allItems[index].probability / totalProbability * 100);
+                } else {
+                    probabilityCell.textContent = 0+"%";
+                }
+            });
+            
+
+            checkboxes.forEach((item, index) => {
+                const probabilityCell = document.querySelector(`#itemTable tbody tr:nth-child(${index + 1}) .probability`);
+                if (!checkboxes[index].checked) {
+                    totalProbability += allItems[index].probability;
+                }
+            });
+
+            checkboxes.forEach((item, index) => {
+                const probabilityCell = document.querySelector(`#itemTable tbody tr:nth-child(${index + 1}) .probability`);
+                if (!checkboxes[index].checked) {
+                    probabilityCell.textContent = (allItems[index].probability / totalProbability * 100).toFixed(4)+"%";
+                }
+            });
+            
+            checkboxes.forEach((item, index) => {
+                const probabilityCell = document.querySelector(`#itemTable tbody tr:nth-child(${index + 1}) .probability`);
+                if (!checkboxes[index].checked && index < highItemsIdx) {
+                    highProbability += (allItems[index].probability / totalProbability * 100)           
+                }
+            });
+            
+            document.querySelector("#highProbability").textContent = highProbability.toFixed(4)+"%";        
+        }
+            
+        // Function to save checkbox states to cookie
+        function saveCheckboxStates() {
+            const checkboxes = document.querySelectorAll("#itemTable tbody input[type='checkbox']");
+            let checkedIndexes = [];
+            checkboxes.forEach((checkbox, index) => {
+                if (checkbox.checked) {
+                    checkedIndexes.push(index);
+                }
+            });
+            setCookie('checkedIndexes', JSON.stringify(checkedIndexes), 30); // Save for 30 days
+        }
+
+        // Function to load checkbox states from cookie
+        function loadCheckboxStates() {
+            const checkedIndexes = JSON.parse(getCookie('checkedIndexes')) || [];
+            const checkboxes = document.querySelectorAll("#itemTable tbody input[type='checkbox']");
+            
+            console.log(checkedIndexes.length);
+            console.log(highItemsIdx);
+            if (checkedIndexes.length > highItemsIdx) {
+                setCookie('checkedIndexes', JSON.stringify([]), 30);
+                return;
+            }
+
+            checkboxes.forEach((checkbox, index) => {
+                checkbox.checked = checkedIndexes.includes(index);
+            });
+
+            if (checkedIndexes.length+1 == highItemsIdx) {
+                var checkAll = document.getElementById('checkAll');
+                checkAll.checked = true;
+            }
+
+            updateProbabilities(); // Update probabilities after loading states
+        }
+
+        // Event listener for select box changes
+        document.getElementById('selectBox').addEventListener('change', function() {
+            const selectedValue = this.value;
+            if (selectedValue !== '') {
+                start(selectedValue);
+                saveSelectBoxValue(selectedValue);
+            }
+        });
+
+        // Function to save select box value to cookie
+        function saveSelectBoxValue(value) {
+            setCookie('selectedOption', value, 30); // Save for 30 days
+        }
+
+        // Function to load select box value from cookie
+        function loadSelectBoxValue() {
+            const selectedOption = getCookie('selectedOption');
+            if (selectedOption) {
+                document.getElementById('selectBox').value = selectedOption;
+            }
+        }
+
+        // Load initial select box value and checkbox states on page load
+        window.addEventListener('load', function() {
+            loadSelectBoxValue();
+            loadCheckboxStates();
+        });
+
+        // Initial start based on loaded select box value
+        const initialSelectedOption = getCookie('selectedOption');
+        if (initialSelectedOption && initialSelectedOption !== '') {
+            document.getElementById('selectBox').value = initialSelectedOption;
+            start(initialSelectedOption);
+        }
+</script>
 
                    <div class="a-container a-form1 line-top">
-                    <h1 class="line-left " id="0">NEW 검닉 랭킹!!</h1>
-                    <h1 class="line-left " id="0">버그 수정 완료!!</h1>
+                    <h1 class="line-left " id="1">검닉 랭킹</h1>
                     <div class="post">
                         <a href="https://mafia42.com/#/community/lastDiscussion/lastShow/1007550">>>http:://여기를 누르시면 최반 링크로 이동됩니다<<<a>
                         최후의반론 댓글을 달면<br>랭킹에 추가됩니다!
@@ -147,7 +453,7 @@
                 </div>
 
                 <div class="a-container a-form1 line-top">
-                    <h1 class="line-left " id="1">6티어 계산기</h1>
+                    <h1 class="line-left " id="2">6티어 계산기</h1>
                     <div class="post">
                         <div class="s-post">
                             <p class="s-line-bottom">
@@ -221,7 +527,7 @@
                             5티어 카드 합성 계산기</strong>
                     </div>
                 </div>
-
+                
                 <div class="a-container a-form1 center line-top">
                     <h1 class="line-left " id="3">우체통 계산기</h1>
                     <div class="post">
