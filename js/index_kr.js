@@ -131,3 +131,11 @@ function ChangeRadio() {
         document.getElementById("return5").value = Math.round(retunr5) + "루블";
     }
 }
+
+
+function Calculation6() {
+var frame = document.getElementById("myframe").value;
+var resultframe = 20 + 1.2 * Math.sqrt(frame);
+
+document.getElementById("resultframe").value = Math.round(resultframe);
+}

@@ -56,4 +56,3 @@ function uncheckCtrlShift()
 document.onmousedown=click;
 
 
-

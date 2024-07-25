@@ -6,17 +6,19 @@ body,html {
   width: auto;
   font-family: 'Noto Sans KR', sans-serif;
 }
+
 .color{
-  background-color : #5383e8;
+  background-color : #fffcf9;
 }
 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: #333;
+  background-color: #fff2f3;
   text-align: center;
 }
+
 ul:after{
   content:'';
   display: block;
@@ -27,12 +29,8 @@ display: inline-block;
 }
 li a {
     display: block;
-    color: white;
     text-align: center;
     padding: 14px;
-    text-decoration: none;
-    width: 90px;
-
 }
 .atag {
   text-align: center;
@@ -42,7 +40,7 @@ li a:hover:not(.active) {
   background-color: #111;
 }
 .active {
-  background-color: #5383e8;   
+  background-color: #fffdc3;   
    /* background-color: #4CAF50; */
 }
 
@@ -75,20 +73,27 @@ left: 0;
 min-width: 100%;
 min-height: 100%;
 }
+
 .aeae{
   text-align: center;
 }
+
+  .adtitle{
+    background-color: #fcdee3;
+    color: #b2a6a7;
+  }
+
     #outer{
       max-width: 40em;
       margin: auto;
-      background-color: #F2F2F6;
+      background-color: #fffcf9;
       height: 100%;
     }
 
     #outer1{
       max-width: 45em;
       margin: auto;
-      background-color: #333;
+      background-color: #fcdee3;
       height: 100%;
     }
     
@@ -131,6 +136,7 @@ min-height: 100%;
       height: 100%;
       width: 100%;
     }
+
 .line-left {
   border-left: 0.2em #606060 solid;
   padding-left: 20px;
@@ -140,8 +146,9 @@ min-height: 100%;
   padding-right: 20px;
 }
 .line-top {
-  border-top: 0.2em #606060 solid;
+  border-top: 0.2em #fff2f3 solid;
   padding-top: 20px;
+  color: #000000;
 }
 .line-bottom {
   border-bottom: 0.2em #606060 solid;
@@ -1400,13 +1407,13 @@ ul,li{list-style:none;}
 }
 .slide ul{width:calc(100% * 7);display:flex;animation:slide 21s infinite;} /* slide를 8초동안 진행하며 무한반복 함 */
 .slide li{width:calc(100% / 7);height:250px;}
-.slide li:nth-child(1){background:dimgrey;}
-.slide li:nth-child(2){background:dimgrey;}
-.slide li:nth-child(3){background:dimgrey;}
-.slide li:nth-child(4){background:dimgrey;}
-.slide li:nth-child(5){background:dimgrey;}
-.slide li:nth-child(6){background:dimgrey;}
-.slide li:nth-child(7){background:dimgrey;}
+.slide li:nth-child(1){background:#fffcf9;}
+.slide li:nth-child(2){background:#fffcf9;}
+.slide li:nth-child(3){background:#fffcf9;}
+.slide li:nth-child(4){background:#fffcf9;}
+.slide li:nth-child(5){background:#fffcf9;}
+.slide li:nth-child(6){background:#fffcf9;}
+.slide li:nth-child(7){background:#fffcf9;}
 @keyframes slide{
   0%{margin-left:0;}
   14.3%{margin-left:0;}
