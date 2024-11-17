@@ -1,0 +1,49 @@
+{
+    "high" : [
+        {
+            "item": "전국 수석 요원 스킨",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 15
+        },
+        {
+            "item": "편법의 귀재 사기꾼 스킨",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 15
+        },
+        {
+            "item": "장학 증서 테두리",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 15
+        },
+        {
+            "item": "반쯤 쓴 노트 테두리",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 15
+        },
+        {
+            "item": "우수 학생 상패",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 15
+        },
+        {
+            "item": "자칭 모범생의 노트",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 15
+        },
+        {
+            "item": "요점 정리 노트",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 10
+        }
+    ],
+    "low":[
+    
+    ]
+}

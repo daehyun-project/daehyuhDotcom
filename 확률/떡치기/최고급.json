@@ -1,0 +1,395 @@
+{
+    "high" : [
+        {
+            "item": "귀왕 마녀 스킨",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 1.48
+        },
+        {
+            "item": "황룡 : 심판의 광휘 자경단원 스킨",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 1.48
+        },
+        {
+            "item": "귀왕의 비 테두리",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 1.48
+        },
+        {
+            "item": "휘감긴 달 테두리",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 1.48
+        },
+        {
+            "item": "독개구리의 포효",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 1.48
+        },
+        {
+            "item": "황금빛 우레",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 1.48
+        },
+        {
+            "item": "설화 속 말풍선",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.925
+        },
+        {
+            "item": "요괴 물음표 스킨",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 1.11
+        },
+        {
+            "item": "황룡 물음표 스킨",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 1.11
+        },
+        {
+            "item": "고귀한 청의 당주 성직자 스킨",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.629
+        },
+        {
+            "item": "잔혹한 적의 당주 청부업자 스킨",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.629
+        },
+        {
+            "item": "교활한 황의 당주 교주 스킨",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.629
+        },
+        {
+            "item": "청색 창살문 테두리",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.629
+        },
+        {
+            "item": "단풍 사슬 테두리",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.629
+        },
+        {
+            "item": "백련 향낭",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.629
+        },
+        {
+            "item": "무인의 철릭",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.629
+        },
+        {
+            "item": "흰토끼 말풍선",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.37
+        },
+        {
+            "item": "우주 배달부 사기꾼 스킨",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.629
+        },
+        {
+            "item": "우주 구급대원 간호사 스킨",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.629
+        },
+        {
+            "item": "토끼봇 테두리",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.629
+        },
+        {
+            "item": "천체의 유영 테두리",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.629
+        },
+        {
+            "item": "소형 구급 우주선",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.629
+        },
+        {
+            "item": "빛나는 유성우",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.629
+        },
+        {
+            "item": "구급 토끼봇 지갑",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.37
+        },
+        {
+            "item": "우주 달토끼 짐승인간 스킨",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.629
+        },
+        {
+            "item": "우주 감시자 용병 스킨",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.629
+        },
+        {
+            "item": "용맹의 증표 테두리",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.629
+        },
+        {
+            "item": "우주복 헬멧 테두리",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.629
+        },
+        {
+            "item": "호랑이의 꼬리",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.629
+        },
+        {
+            "item": "달토끼의 우주패드",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.629
+        },
+        {
+            "item": "달토끼의 우주 지갑",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.37
+        },
+        {
+            "item": "홍단 스파이 스킨",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.629
+        },
+        {
+            "item": "청단 영매 스킨",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.629
+        },  {
+            "item": "보름달이 들어준 소원",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.629
+        },
+        {
+            "item": "한가위 기념 테두리",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.629
+        },
+        {
+            "item": "화투 42",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.37
+        },
+        {
+            "item": "토끼 지갑",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.37
+        },
+        {
+            "item": "돼지 지갑",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.37
+        },
+        {
+            "item": "만월의 짐승인간 스킨",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.629
+        },
+        {
+            "item": "달토끼 영매 스킨",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.629
+        },
+        {
+            "item": "방아꾼 건달 스킨",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.629
+        },
+        {
+            "item": "토끼 테두리",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.629
+        },
+        {
+            "item": "청룡 : 정의의 파도 경찰 스킨",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.629
+        },
+        {
+            "item": "백호 : 치유의 바람 의사 스킨",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.629
+        },
+        {
+            "item": "구미호 마담 스킨",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.629
+        },
+        {
+            "item": "도깨비 기자 스킨",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.629
+        },
+        {
+            "item": "귀면문 테두리",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.629
+        },
+        {
+            "item": "여우령 테두리",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.629
+        },
+        {
+            "item": "아가씨의 아얌",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.629
+        },
+        {
+            "item": "도깨비의 허리장식",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.629
+        },
+        {
+            "item": "자색 비단 지갑",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.37
+        },
+        {
+            "item": "신비한 합창",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.37
+        }
+    ],
+    "low":[
+        {
+            "item": "청룡의 뿔",
+            "minQuantity": 8,
+            "maxQuantity": 9,
+            "probability": 3.15
+        },
+        {
+            "item": "백호의 이빨",
+            "minQuantity": 8,
+            "maxQuantity": 9,
+            "probability": 3.15
+        },
+        {
+            "item": "달토끼 운석",
+            "minQuantity": 8,
+            "maxQuantity": 9,
+            "probability": 3.15
+        },
+        {
+            "item": "한가위 기념 엽서",
+            "minQuantity": 40,
+            "maxQuantity": 50,
+            "probability": 8.82
+        },
+        {
+            "item": "보름달 엽서",
+            "minQuantity": 40,
+            "maxQuantity": 50,
+            "probability": 8.82
+        },
+        {
+            "item": "한가위 기념 확성기",
+            "minQuantity": 25,
+            "maxQuantity": 35,
+            "probability": 8.82
+        },
+        {
+            "item": "호랑이 꼬리",
+            "minQuantity": 8,
+            "maxQuantity": 9,
+            "probability": 4.095
+        },
+        {
+            "item": "토끼 꼬리",
+            "minQuantity": 8,
+            "maxQuantity": 9,
+            "probability": 4.095
+        },
+        {
+            "item": "징벌의 엽서",
+            "minQuantity": 8,
+            "maxQuantity": 9,
+            "probability": 3.78
+        },
+        {
+            "item": "주사위 엽서",
+            "minQuantity": 16,
+            "maxQuantity": 18,
+            "probability": 3.78
+        },
+        {
+            "item": "깜짝 엽서",
+            "minQuantity": 9,
+            "maxQuantity": 12,
+            "probability": 3.78
+        },
+        {
+            "item": "4티어 카드",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 3.78
+        },
+        {
+            "item": "3티어 카드",
+            "minQuantity": 4,
+            "maxQuantity": 5,
+            "probability": 3.78
+        }
+    ]
+}

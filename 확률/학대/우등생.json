@@ -1,0 +1,336 @@
+{
+    "high" : [
+        {
+            "item": "전국 수석 요원 스킨",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.8
+        },
+        {
+            "item": "편법의 귀재 사기꾼 스킨",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.8
+        },
+        {
+            "item": "장학 증서 테두리",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.8
+        },
+        {
+            "item": "반쯤 쓴 노트 테두리",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.8
+        },
+        {
+            "item": "우수 학생 상패",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.8
+        },
+        {
+            "item": "자칭 모범생의 노트",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.8
+        },
+        {
+            "item": "요점 정리 노트",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.5
+        },
+        {
+            "item": "교감 선생님 공무원 스킨",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.12
+        },
+        {
+            "item": "미스터리 탐험부 비밀결사 스킨",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.12
+        },
+        {
+            "item": "게임 동아리 해커 스킨",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.12
+        },
+        {
+            "item": "게이머용 카메라 테두리",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.12
+        },
+        {
+            "item": "오래된 인형 테두리",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.12
+        },
+        {
+            "item": "실시간 채팅창",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.12
+        },
+        {
+            "item": "짐승인간 저주 인형",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.12
+        },
+        {
+            "item": "우등생 학생증",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.1
+        },
+        {
+            "item": "음악교사 마술사 스킨",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.12
+        },
+        {
+            "item": "영양사 과학자 스킨",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.12
+        },
+        {
+            "item": "수상한 식판 테두리",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.12
+        },
+        {
+            "item": "관현악부 테두리",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.12
+        },
+        {
+            "item": "독극물 디저트",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.12
+        },
+        {
+            "item": "행진곡 악보",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.12
+        },
+        {
+            "item": "학생용 지갑",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.1
+        },
+        {
+            "item": "학교 42",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.1
+        },
+        {
+            "item": "빨간 명찰",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.12
+        },
+        {
+            "item": "노란 명찰",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.12
+        },
+        {
+            "item": "초록 명찰",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.12
+        },
+        {
+            "item": "파란 명찰",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.12
+        },
+        {
+            "item": "삼각자 테두리",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.12
+        },
+        {
+            "item": "훔친 닭벼슬",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.12
+        },
+        {
+            "item": "사춘기 소녀 마담 스킨",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.12
+        },
+        {
+            "item": "치킨 털이범 도둑 스킨",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.12
+        },
+        {
+            "item": "과학부 테러리스트 스킨",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.12
+        },
+        {
+            "item": "수학교사 자경단원 스킨",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.12
+        },
+        {
+            "item": "선도부 정치인 스킨",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.12
+        },
+        {
+            "item": "응원단장 영매 스킨",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 0.12
+        }
+    ],
+    "low":[
+        {
+            "item": "스포이트",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 4.2
+        },
+        {
+            "item": "마법의 염색약",
+            "minQuantity": 6,
+            "maxQuantity": 8,
+            "probability": 4.2
+        },
+        {
+            "item": "신분증",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 4.2
+        },
+        {
+            "item": "사망 광고판",
+            "minQuantity": 35,
+            "maxQuantity": 40,
+            "probability": 4.2
+        },
+        {
+            "item": "부고기사",
+            "minQuantity": 35,
+            "maxQuantity": 40,
+            "probability": 4.2
+        },
+        {
+            "item": "고대의 제작서",
+            "minQuantity": 2,
+            "maxQuantity": 3,
+            "probability": 4.2
+        },
+        {
+            "item": "마법의 연마제",
+            "minQuantity": 2,
+            "maxQuantity": 3,
+            "probability": 4.2
+        },
+        {
+            "item": "명장의 망치",
+            "minQuantity": 2,
+            "maxQuantity": 3,
+            "probability": 4.2
+        },
+        {
+            "item": "큐피드의 화살",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 4.2
+        },
+        {
+            "item": "고급 엽서",
+            "minQuantity": 16,
+            "maxQuantity": 20,
+            "probability": 4.2
+        },
+        {
+            "item": "징벌의 엽서",
+            "minQuantity": 2,
+            "maxQuantity": 2,
+            "probability": 4.2
+        },
+        {
+            "item": "깜짝 엽서",
+            "minQuantity": 2,
+            "maxQuantity": 3,
+            "probability": 4.2
+        },
+        {
+            "item": "확성기",
+            "minQuantity": 11,
+            "maxQuantity": 14,
+            "probability": 4.2
+        },
+        {
+            "item": "2티어 카드",
+            "minQuantity": 3,
+            "maxQuantity": 3,
+            "probability": 4.2
+        },
+        {
+            "item": "3티어 카드",
+            "minQuantity": 1,
+            "maxQuantity": 1,
+            "probability": 4.2
+        },
+        {
+            "item": "수상한 사과주스",
+            "minQuantity": 2,
+            "maxQuantity": 2,
+            "probability": 5.6
+        },
+        {
+            "item": "아몬드 짐인빵",
+            "minQuantity": 2,
+            "maxQuantity": 2,
+            "probability": 5.7
+        },
+        {
+            "item": "방송부의 확성기기",
+            "minQuantity": 6,
+            "maxQuantity": 8,
+            "probability": 5.7
+        },
+        {
+            "item": "망한 성적표",
+            "minQuantity": 6,
+            "maxQuantity": 8,
+            "probability": 5.7
+        },
+        {
+            "item": "반성문",
+            "minQuantity": 2,
+            "maxQuantity": 3,
+            "probability": 5.7
+        }    
+    ]
+}

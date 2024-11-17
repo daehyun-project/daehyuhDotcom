@@ -1398,7 +1398,7 @@ ul,li{list-style:none;}
   width:100%;
   overflow:hidden;
 }
-.slide ul{width:calc(100% * 7);display:flex;animation:slide 21s infinite;} /* slide를 8초동안 진행하며 무한반복 함 */
+.slide ul{width:calc(100% * 7);display:flex;animation:slide 28s infinite;} /* slide를 8초동안 진행하며 무한반복 함 */
 .slide li{width:calc(100% / 7);height:250px;}
 .slide li:nth-child(1){background:dimgrey;}
 .slide li:nth-child(2){background:dimgrey;}

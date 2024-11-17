@@ -78,10 +78,7 @@ min-height: 100%;
   text-align: center;
 }
 
-  .adtitle{
-    background-color: #fcdee3;
-    color: #b2a6a7;
-  }
+
 
     #outer{
       max-width: 40em;
@@ -104,13 +101,14 @@ min-height: 100%;
     }
     #last{
       width: auto;
-      background-color: #21395D;
-      color : #fff;
+      background-color: #fcdee3;
+      color : #9b8b8e;
       padding-top: 5em;
     }
     .last{
       padding-bottom: 2em;
       text-align: center;
+      
     }
 
     #black{
@@ -146,10 +144,14 @@ min-height: 100%;
   padding-right: 20px;
 }
 .line-top {
+  height: 90%;
   border-top: 0.2em #fff2f3 solid;
+  border-right: 0.2em #fff2f3 solid;
+  border-left: 0.2em #fff2f3 solid;
   padding-top: 20px;
   color: #000000;
 }
+
 .line-bottom {
   border-bottom: 0.2em #606060 solid;
   padding-bottom: 40px;
@@ -1405,7 +1407,7 @@ ul,li{list-style:none;}
   width:100%;
   overflow:hidden;
 }
-.slide ul{width:calc(100% * 7);display:flex;animation:slide 21s infinite;} /* slide를 8초동안 진행하며 무한반복 함 */
+.slide ul{width:calc(100% * 7);display:flex;animation:slide 28s infinite;} /* slide를 8초동안 진행하며 무한반복 함 */
 .slide li{width:calc(100% / 7);height:250px;}
 .slide li:nth-child(1){background:#fffcf9;}
 .slide li:nth-child(2){background:#fffcf9;}
